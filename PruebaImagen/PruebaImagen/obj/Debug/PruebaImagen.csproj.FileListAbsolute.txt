@@ -1,0 +1,9 @@
+c:\users\jeobal\documents\visual studio 2015\Projects\PruebaImagen\PruebaImagen\bin\Debug\PruebaImagen.exe.config
+c:\users\jeobal\documents\visual studio 2015\Projects\PruebaImagen\PruebaImagen\obj\Debug\PruebaImagen.csprojResolveAssemblyReference.cache
+c:\users\jeobal\documents\visual studio 2015\Projects\PruebaImagen\PruebaImagen\obj\Debug\PruebaImagen.Form1.resources
+c:\users\jeobal\documents\visual studio 2015\Projects\PruebaImagen\PruebaImagen\obj\Debug\PruebaImagen.Properties.Resources.resources
+c:\users\jeobal\documents\visual studio 2015\Projects\PruebaImagen\PruebaImagen\obj\Debug\PruebaImagen.csproj.GenerateResource.Cache
+c:\users\jeobal\documents\visual studio 2015\Projects\PruebaImagen\PruebaImagen\bin\Debug\PruebaImagen.exe
+c:\users\jeobal\documents\visual studio 2015\Projects\PruebaImagen\PruebaImagen\bin\Debug\PruebaImagen.pdb
+c:\users\jeobal\documents\visual studio 2015\Projects\PruebaImagen\PruebaImagen\obj\Debug\PruebaImagen.exe
+c:\users\jeobal\documents\visual studio 2015\Projects\PruebaImagen\PruebaImagen\obj\Debug\PruebaImagen.pdb

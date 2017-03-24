@@ -1,0 +1,51 @@
+﻿using System;
+using System.Drawing;
+using System.IO;
+using System.Windows.Forms;
+
+namespace PruebaImagen
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //image to byteArray
+            Image img = Image.FromFile("C:\\Users\\jeobal\\Desktop\\Debug\\AllYues arcades.png");
+            byte[] bArr = imgToByteArray(img);
+            //byte[] bArr = imgToByteConverter(img);
+            //Again convert byteArray to image and displayed in a picturebox
+            Image img1 = byteArrayToImage(bArr);
+            pictureBox1.Image = img1;
+        }
+        //convert image to bytearray
+        public byte[] imgToByteArray(Image img)
+        {
+            using (MemoryStream mStream = new MemoryStream())
+            {
+                img.Save(mStream, img.RawFormat);
+                return mStream.ToArray();
+            }
+        }
+        //convert bytearray to image
+        public Image byteArrayToImage(byte[] byteArrayIn)
+        {
+            using (MemoryStream mStream = new MemoryStream(byteArrayIn))
+            {
+                return Image.FromStream(mStream);
+            }
+        }
+        //another easy way to convert image to bytearray
+        public static byte[] imgToByteConverter(Image inImg)
+        {
+            ImageConverter imgCon = new ImageConverter();
+            return (byte[])imgCon.ConvertTo(inImg, typeof(byte[]));
+        }
+
+
+    }
+}
